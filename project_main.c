@@ -8,22 +8,20 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "project_config.h"
-
 #include "user_utils.h"
 #include "blinky.h"
 
 int main(void)
  {
-     DDRB|=(1<<PB0); //set B=1
-     DDRD &=~(1<<PD0);
-     PORTD|=(1<<PD0);
-     DDRD &=~(1<<PD1);
-     PORTD|=(1<<PD1);
+     DDRB|=(1<<PB0); //set B0=1
+     DDRD &=~(1<<PD0);// to clear D0
+     PORTD|=(1<<PD0); // set D0=1
+     DDRD &=~(1<<PD1);// to clear D1
+     PORTD|=(1<<PD1);// set D1=1
 
     while(1)
       {if(!(PIND&(1<<PD0)))
-          {if(!(PIND&(1<<PD1)))
+          {if(!(PIND&(1<<PD1)))// when both switches on led glows
            {PORTB|=(1<<PB0);
            delay_ms(20);
            }
