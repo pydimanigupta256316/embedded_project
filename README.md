@@ -7,8 +7,7 @@
 
 |Build|Cppcheck|
 |:--:|:--:|
-|[![Compile-Linux](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml/badge.svg)]
-(https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml)|[![cppcheck](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml)|
+|[![Compile-Linux](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml)|[![cppcheck](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml)|
 
 # off on
 
