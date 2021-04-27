@@ -7,17 +7,17 @@
 
 |Build|Cppcheck|
 |:--:|:--:|
-|[![Compile-Linux](https://github.com/pydimanigupta256316/embedded_project/blob/main/.github/workflows/CodeQulaity.yml/badge.svg)]
-(https://github.com/pydimanigupta256316/embedded_project/blob/main/.github/workflows/CodeQulaity.yml)|[![cppcheck](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml)|
+|[![Compile-Linux](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml/badge.svg)]
+(https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml)|[![cppcheck](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml)|
 
-#off on
+# off on
 
 <img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/off%20on.PNG"/>
 
-#on off
+# on off
 
 <img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on%20off.PNG"/>
 
-#on on
+# on on
 
 <img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on%20on.PNG"/>
