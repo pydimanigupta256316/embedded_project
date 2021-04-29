@@ -4,8 +4,8 @@
 #include"activity4.h"
 
 int main(void)
-{ uint16_t reg=0;
- int z=0,m;
+{ uint16_t reg;
+ int z,m;
 while(1)
 {
 z=activity1();

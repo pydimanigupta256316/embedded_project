@@ -9,7 +9,7 @@ set_prescaler;//to get  more resolution output
 set_pwm_output;// set PB1 as output
 char temperature;
 
-if(0<=temp && temp<=200)
+if(temp<=200)
    {OCR1A=204;//20% duty cycle
     _delay_ms(20);
      temperature=20;
