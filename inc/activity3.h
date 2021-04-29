@@ -1,3 +1,13 @@
+/**
+ * @file activity3.h
+ * @author manigupta ()
+ * @brief to view the digital value in the form of wave
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef ACTIVITY3_H_INCLUDED
 #define ACTIVITY3_H_INCLUDED
 
