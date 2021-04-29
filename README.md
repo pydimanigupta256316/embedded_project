@@ -8,10 +8,10 @@
 
 # off
 
-<img/src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/off.PNG">
+<img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/off.PNG/"/>
 
 # on
-<img/src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on.PNG">
+<img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on.PNG/"/>
 
 
 
