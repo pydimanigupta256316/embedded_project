@@ -32,7 +32,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = Blinky
+PROJECT_NAME           = project
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -58,7 +58,7 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = .
+OUTPUT_DIRECTORY       = F:\embedded_project-1
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -200,6 +200,12 @@ JAVADOC_AUTOBRIEF      = NO
 # If the JAVADOC_BANNER tag is set to YES then doxygen will interpret a line
 # such as
 # /***************
+
+
+
+
+
+
 # as being the beginning of a Javadoc-style comment "banner". If set to NO, the
 # Javadoc-style will behave just like regular comments and it will not be
 # interpreted by doxygen.
@@ -829,7 +835,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ../ \
+INPUT                  =F:\embedded_project-1
                          .
 
 # This tag can be used to specify the character encoding of the source files

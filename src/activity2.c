@@ -1,5 +1,4 @@
 #include"activity2.h"
-#include"activity3.h"
 void InitADC()
 {
     ADMUX=(1<<REFS0);//set refernce voltage
