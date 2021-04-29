@@ -9,14 +9,4 @@
 |:--:|:--:|
 |[![Compile-Linux](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/Compile.yml)|[![cppcheck](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/pydimanigupta256316/embedded_project/actions/workflows/CodeQulaity.yml)|
 
-# off_on
 
-<img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/off%20on.PNG"/>
-
-# on_off
-
-<img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on%20off.PNG"/>
-
-# on_on
-
-<img src="https://github.com/pydimanigupta256316/embedded_project/blob/main/simulation/on%20on.PNG"/>
