@@ -1,48 +1,33 @@
-/**
- * @file activity1.c
- * @author mani gupta ()
- * @brief 
- * @version 0.1
- * @date 2021-04-27
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-#include "activity1.h"
-
-void activity1(void)
+#include"activity1.h"
+int activity1()
  {
-     DDRB|=(1<<PB0); //set B0=1
-     DDRD &=~(1<<PD0);// to clear D0
-     PORTD|=(1<<PD0); // set D0=1
-     DDRD &=~(1<<PD1);// to clear D1
-     PORTD|=(1<<PD1);// set D1=1
-
-    while(1)
-      {if(!(PIND&(1<<PD0)))
-          {if(!(PIND&(1<<PD1)))// when both switches on then led glows
-           {PORTB|=(1<<PB0);
-           delay_ms(20);
-           }
-           else{
-        PORTB&=~(1<<PB0);
-        delay_ms(20);
-
-         }
-          }
-
-        else
-        {PORTB&=~(1<<PB0);
-        delay_ms(20);
-
+     set_port_as_led_out;//set led as output
+     set_port_as_button_input;//clear the bit 0 of DDR D
+    pullup_button_sensor;// set bit 0 of port D
+     set_port_as_heater_input;//clear the bit 1 of DDR D
+     pullup_heater;// set bit 1 of port D
+if(button_activate)
+{
+    if(heater_activate)
+    {
+        //when both are activated then led glows
+        led_on;
+        _delay_ms(20);
+        return(1);
     }
-    }   
+    else{
+
+        led_off;
+        _delay_ms(20);
+        return 0;
+        }
+}
+// if any one is not activated then led do not glows
+else
+    {led_off;
+    _delay_ms(20);
+      return 0;
+    }
 }
 
-void delay_ms(uint32_t delay_time)
-{  uint32_t units = 0;
-	for (units = 0; units <= delay_time; units++)
-	{
-		_delay_ms(1);
-	}
-}
+
