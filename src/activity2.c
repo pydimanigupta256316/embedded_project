@@ -1,4 +1,8 @@
 #include"activity2.h"
+/**
+ * @brief In this we are converting the analog value to digital value
+ * return temp (the binary value) 
+ */
 void InitADC()
 {
     ADMUX=(1<<REFS0);//set refernce voltage

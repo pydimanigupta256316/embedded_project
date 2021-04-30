@@ -14,6 +14,10 @@ void UARTinit(uint16_t ubrr_value){
     transmitting_receiving_interrupt_enable;//to set the enables for TRX
 
 }
+/**
+ * @brief we are observing the temperature in serial monitor
+ * 
+ */
 
 char UARTreadchar(){
 

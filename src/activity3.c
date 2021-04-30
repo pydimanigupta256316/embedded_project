@@ -8,6 +8,10 @@ set_10bit_fast_pwm ;//set timer for pwm
 set_prescaler;//to get  more resolution output
 set_pwm_output;// set PB1 as output
 char temperature;
+/**
+ * @brief In this temperature value is returning and we see the temp in  the form of duty cycle also
+ * return temperature
+ */
 
 if(temp<=200)
    {OCR1A=204;//20% duty cycle
