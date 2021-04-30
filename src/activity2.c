@@ -20,10 +20,6 @@ uint16_t ReadADC(uint8_t ch)
 int16_t activity2()
 {  InitADC(); // necessary initialization of ADMUX
    uint16_t temp;
-    {   temp=ReadADC(0);// storing the digital value into temporary register
-        return(temp);
-
-    }
-
-
+temp=ReadADC(0);// storing the digital value into temporary register
+return(temp);
 }

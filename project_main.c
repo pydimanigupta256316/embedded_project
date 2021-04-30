@@ -15,9 +15,8 @@
 
 int main(void)
 { uint16_t reg;
- int z,m;
 while(1)
-{
+{int z,m;
 z=activity1();//to make led on when button & heater on
 if(z==1)
 {
