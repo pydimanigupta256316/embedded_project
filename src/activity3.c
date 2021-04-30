@@ -18,17 +18,17 @@ if(temp<=200)
     _delay_ms(20);
      temperature=20;
    }
-else if(201<=temp && temp<=500)
+else if((201<=temp) && (temp<=500))
    {OCR1A=410;//40% duty cycle
     _delay_ms(20);
      temperature=25;
    }
-else if(501<=temp && temp<=700)
+else if((501<=temp) && (temp<=700))
    {OCR1A=717;//70%duty cycle
      _delay_ms(20);
      temperature=29;
    }
-else if(701<=temp && temp<=1024)
+else if((701<=temp) && (temp<=1024))
    {OCR1A=973;//95% duty cycle
      _delay_ms(20);
      temperature=33;
