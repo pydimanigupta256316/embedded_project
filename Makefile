@@ -33,7 +33,8 @@ endif
 all:$(BUILD_DIR)
 # Compile the code and generate the ELF file
 	$(CC) -g -Wall -Os -mmcu=atmega328 -DF_CPU=1600000UL $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
-
+	#create hex file
+	$(AVR_OBJ_CPY) $(HFLAGS) $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf) $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).hex)
 
 $(BUILD_DIR):
 # Create directory to store the built files
@@ -50,4 +51,5 @@ doc:
 clean:
 # Remove all the build files and generated document files
 	rm -rf $(call FixPath,$(BUILD_DIR)/*) 
+	rm -rf html
 	make -C documentation clean 
