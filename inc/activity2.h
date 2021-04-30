@@ -16,6 +16,9 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
+#define ADC_not_occured !(ADCSRA & (1<<ADIF)) 
+#define set_ADC_interrupt_flag ADCSRA|=(1<<ADIF)
+
 
 
 void InitADC();

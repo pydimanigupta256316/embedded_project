@@ -11,8 +11,9 @@ uint16_t ReadADC(uint8_t ch)
     ch=ch&0b00000111;
     ADMUX|=ch;//analog channel selection bits
     ADCSRA|=(1<<ADSC);//to start conversion
-    while(!(ADCSRA & (1<<ADIF)));//check ADC conversion complete or not
-    ADCSRA|=(1<<ADIF);//when ADC conversion complete
+    while(ADC_not_occured);//check ADC conversion complete or not
+    {set_ADC_interrupt_flag;//when ADC conversion complete
+    }
     return(ADC);
 }
 
